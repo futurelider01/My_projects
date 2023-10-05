@@ -58,6 +58,5 @@ class MyGUI:
     def clear(self):
         self.textbox.delete('1.0',tk.END)
 
-MyGUI()
-
-        
+a = MyGUI
+a()
